@@ -1,4 +1,5 @@
 import { Api, JsonRpc, RpcError } from "eosjs";
+import fetch from "node-fetch";
 import { WaxEventSource } from "./WaxEventSource";
 
 export class WaxJS {
