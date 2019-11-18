@@ -1,5 +1,5 @@
 {
-  "name": "node-waxjs",
+  "name": "@bobtheshoplifter/node-waxjs",
   "version": "0.0.4",
   "description": "Javascript API for integration with the WAX Cloud Wallet.",
   "scripts": {
@@ -42,5 +42,16 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "main": "webpack.prod.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobTheShoplifter/waxjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BobTheShoplifter/waxjs/issues"
+  }
 }

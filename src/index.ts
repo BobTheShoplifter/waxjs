@@ -14,7 +14,7 @@ export class WaxJS {
     private waxSigningURL: string = "https://all-access.wax.io"
   ) {
     this.waxEventSource = new WaxEventSource(waxSigningURL);
-    this.rpc = new JsonRpc(rcpEndpoint);
+    this.rpc = new JsonRpc(rcpEndpoint, { fetch });
   }
 
   public async login() {
