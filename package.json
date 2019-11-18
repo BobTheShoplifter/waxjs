@@ -1,5 +1,5 @@
 {
-  "name": "@waxio/waxjs",
+  "name": "node-waxjs",
   "version": "0.0.4",
   "description": "Javascript API for integration with the WAX Cloud Wallet.",
   "scripts": {
@@ -37,7 +37,8 @@
     "serve": "^11.1.0"
   },
   "dependencies": {
-    "eosjs": "^20.0.0"
+    "eosjs": "^20.0.0",
+    "node-fetch": "^2.6.0"
   },
   "files": [
     "dist"
